@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./images/">
+</head>
+<body>
+    <div class="container">
+        <h1 id="page-title">Task Management Matrix</h1>
+        <div class="box-container" id="landing-page">
+            <a data-category="urgent-important" class="box one">
+                <div class="box-content">
+                    <div>Urgent and Important</div>
+                    <h3>Do First</h3>
+                </div>
+            </a>
+            <a data-category="important-not-urgent" class="box two">
+                <div class="box-content">
+                    <div>Important but Not Urgent</div>
+                    <h3>Schedule</h3>
+                </div>
+            </a>
+            <a data-category="urgent-not-important" class="box three">
+                <div class="box-content">
+                    <div>Urgent but Not Important</div>
+                    <h3>Delegate</h3>
+                </div>
+            </a>
+            <a data-category="neither-urgent-nor-important" class="box four">
+                <div class="box-content">
+                    <div>Neither Urgent nor Important</div>
+                    <h3>Don't Do</h3>
+                </div>
+            </a>
+        </div>
+        <div class="todo-app" id="todo-app">
+            <div class="matrix-section" id="tasks">
+                <h2 id="section-title">Tasks</h2>
+                <input type="text" id="task-input" placeholder="Add Task" />
+                <button id="add-task-btn">Add</button>
+                <ul id="task-list">
+                    <!-- Tasks will be dynamically added here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
