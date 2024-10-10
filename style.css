@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f2f5;
+    background: linear-gradient(to right, #b993d6, #8ca6db);
     overflow: hidden; /* Prevents scrollbars */
 }
 .container {
@@ -21,24 +21,24 @@ body {
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #333;
+    color: black;
     font-weight: 600;
 }
 .box-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    width: 100%; /* Ensure the grid container spans full width */
-    max-width: 1000px; /* Optional: restrict max width */
+    width: 80%; /* Ensure the grid container spans full width */
+    max-width: 800px; /* Optional: restrict max width */
 }
 .box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 160px;
     border-radius: 12px;
-    color: #fff;
+    color: #ffffff;
     font-size: 1.2em;
     font-weight: 600;
     padding: 20px;
@@ -85,7 +85,7 @@ h1 {
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    background: #fff;
+    background: #ffffff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
